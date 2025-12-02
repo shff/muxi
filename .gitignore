@@ -1,0 +1,25 @@
+muxi
+.DS_Store
+
+# Go build artifacts
+bin/
+pkg/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+coverage.out
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Editor / OS files
+.vscode/
+.idea/
+.env
+.envrc
+
+# Generated files
+*.out
